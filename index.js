@@ -29,6 +29,7 @@ const PORT = process.env.PORT || 4000;
 app.use(
   cors({
     origin: [
+      "https://app.explified.com",
       "http://localhost:5173",
       "http://localhost:3000",
       "http://localhost:5000",
